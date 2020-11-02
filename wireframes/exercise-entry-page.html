@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gainz</title>
+</head>
+<body>
+  <header>
+    <h1>Gainz</h1>
+  </header>
+  <main>
+    <!-- This will automatically create current date object if 
+      recently created, otherwise will keep previous date if only being edited -->
+    <h2>Edit exercise</h2>
+    <form>
+      <label for="exercise">Select an exercise:</label>
+      <select id="exercise">
+        <option>Flat benchpress</option>
+        <option>Incline benchpress</option>
+        <option>Decline benchpress</option>
+        <option>Shoulder press</option>
+        <option>Squats</option>
+        <option>Deadlifts</option>
+        <option>Bentover rows</option>
+      </select>
+      
+      <label for="sets">Enter number of sets:</label>
+      <input type="number" id="sets"/>
+
+      <label for="repetitions">Enter number of repetitions:</label>
+      <input type="number" id="repetitions"/>
+
+      <label for="weight">Enter weight:</label>
+      <input type="number" id="weight"/>
+
+      <button type="reset">Cancel</button>
+      <button type="submit">Enter</button>
+    </form>
+  </main>
+</body>
+</html>
